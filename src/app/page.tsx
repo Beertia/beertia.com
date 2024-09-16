@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center flex-grow w-full px-4 sm:px-0">
         <section className="relative w-full flex justify-center" aria-labelledby="main-heading">
-          <Image src="/beertia-cover.webp" alt="Decorative background image" width={383} height={519} className="w-full max-w-[383px] h-auto" aria-hidden="true" />
+          <Image src="/beertia-cover.webp" alt="Decorative background image" width={383} height={519} className="w-full max-w-[60%] sm:max-w-[383px] h-auto" aria-hidden="true" />
           <h1 id="main-heading" className="leading-snug md:leading-snug lg:leading-snug w-full max-w-[20ch] text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl sm:text-5xl md:text-5xl lg:text-[5rem] font-bold">
             We design and develop digital products
           </h1>
